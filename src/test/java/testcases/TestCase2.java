@@ -23,5 +23,11 @@ public class TestCase2 {
 
 		throw new SkipException("Skipping the test case");
 	}
+	
+	@Test
+	public void isSuccess() {
+
+		Assert.assertEquals("Hello", "Hello");
+	}
 
 }
